@@ -12,6 +12,7 @@ THEORY/PRINCIPLE:
 ECG contains characteristic P, QRS and T waves and may be contaminated by baseline wander, power�line interference and high-frequency noise. A band-pass filter is used to emphasize QRS energy.Differentiation, squaring and moving-window integration further enhance the QRS complexes before peak detection.
 
 PROCESSING FLOWCHART:
+
 image
 
 PROCEDURE:
