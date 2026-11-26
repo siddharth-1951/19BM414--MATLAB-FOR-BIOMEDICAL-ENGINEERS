@@ -12,6 +12,7 @@ ECG contains characteristic P, QRS and T waves and may be contaminated by baseli
 
 PROCESSING FLOWCHART:
 image
+
 PROCEDURE:
 
 Load the ECG and inspect its duration and amplitude.
@@ -21,12 +22,14 @@ Differentiate and square the filtered ECG.
 Apply a 150 ms moving-window integration.
 Detect QRS candidates using minimum height and minimum distance.
 Calculate RR intervals and estimated heart rate.
+
 OBSERVATIONS:
 
 Sampling frequency = 360Hz
 Signal Duration =10.00 seconds
 Detected QRS Complexes = 12
 Estimated heart rate/ mean RR interval= 75.19 bpm
+
 RESULT:
 
 The experiment was performed successfully using MATLAB. The input was processed according to the stated method and the expected biomedical output was obtained.
